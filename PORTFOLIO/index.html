@@ -7,31 +7,59 @@
     <link rel="stylesheet" href="/PORTFOLIO/style.css" />
   </head>
   <body>
-    <header>
+    <header id="main-header">
       <div>
         <h1>Máximo Canto Pereyra</h1>
       </div>
-      <nav class="nav-bar">
-        <a class="header-inicio" href="#inicio">Inicio</a>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+      <nav class="nav-bar hidden" id="nav-bar">
+        <a href="#Inicio">Inicio</a>
+        <a href="#Me">Sobre mi</a>
+        <a href="#Proyectos">Proyectos/Aprendizajes</a>
+        <a href="#Hobby">Hobby (cocina)</a>
+        <a href="#Contacto">Contacto</a>
       </nav>
     </header>
-    <section id="Inicio">
-      <div class="sec-inicio">
-        <div class="container-inicio">
-          <nav class="links">
-            <a href="#Inicio">Inicio</a>
-            <a href="">pipi</a>
-            <a href="">pipi</a>
-            <a href="">pipi</a>
-            <a href="#Contacto">Contacto</a>
-          </nav>
+    <main>
+      <section id="Inicio">
+        <div class="sec-inicio">
+          <div class="container-inicio">
+            <nav class="links">
+              <a href="#Inicio">Inicio</a>
+              <a href="#Me">Sobre mi</a>
+              <a href="#Proyectos">Proyectos/Aprendizajes</a>
+              <a href="#Hobby">Hobby (cocina)</a>
+              <a href="#Contacto">Contacto</a>
+            </nav>
+          </div>
         </div>
-      </div>
-    </section>
-    <section id="Info"></section>
-    <section id=""></section>
-    <section id=""></section>
-    <section id="Contacto"></section>
-    <footer></footer>
+      </section>
+      <section id="Me" class="sec-info">
+        <div class="container-info">
+          <div class="mi-foto">
+            <img
+              src="./images/Foto de Maxi Pereyra (3).jpg"
+              alt="mi foto"
+              class="img-info"
+            />
+          </div>
+          <div class="mi-info">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+              voluptatum? Ipsum nobis placeat optio blanditiis. Illo eaque
+              tempora animi totam maiores officia consectetur omnis, in
+              molestiae eius repellat, voluptate accusamus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="Proyectos" class="sec-proyectos">
+        <div class="container-proyectos"></div>
+      </section>
+      <section id="Hobby" class="sec-hobby">aca van mis hobbys</section>
+      <section id="Contacto" class="sec-contactos">aca Contacto</section>
+      <footer></footer>
+      <script src="./index.js"></script>
+    </main>
   </body>
 </html>

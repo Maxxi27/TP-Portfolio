@@ -441,9 +441,6 @@ nav a:hover {
 
 /* Móviles pequeños */
 @media (max-width: 480px) {
-  .sec-hobby {
-    padding: 65pc 0 65pc 0;
-  }
   .images-cocina {
     flex-direction: column;
     gap: 12px;

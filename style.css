@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("/images/TP11.jpg");
+  background-image: url("images/TP11.jpg");
   margin: 0;
   background-size: cover;
   background-position: center;
